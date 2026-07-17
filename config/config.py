@@ -28,7 +28,7 @@ CONFIDENCE_THRESHOLD = 0.70
 # KAMERA
 # =====================================================
 
-CAMERA_URL = "http://192.168.1.19:8080/video"
+CAMERA_URL = "http://192.168.1.11:8080/video"
 
 DEFAULT_CAMERA_ID = 1
 

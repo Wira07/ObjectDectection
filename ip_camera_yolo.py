@@ -26,7 +26,7 @@ cursor = db.cursor()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Lokasi model YOLO
-MODEL_PATH = os.path.join(BASE_DIR, "models", "yolo11n.pt")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "yolo11m.pt")
 
 # Cek apakah model ada
 if not os.path.exists(MODEL_PATH):
