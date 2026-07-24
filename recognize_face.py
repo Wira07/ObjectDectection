@@ -33,7 +33,7 @@ from insightface.app import FaceAnalysis
 
 # ================= KONFIGURASI =================
 
-CAMERA_URL = "http://192.168.1.9:8080/video"
+CAMERA_URL = "http://192.168.1.11:8080/video"
 FACE_DATASET_DIR = "face_dataset"
 EMBEDDINGS_CACHE_PATH = os.path.join(FACE_DATASET_DIR, "embeddings_cache.pkl")
 DET_SCORE_THRESHOLD = 0.55

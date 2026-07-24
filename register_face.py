@@ -21,7 +21,7 @@ from insightface.app import FaceAnalysis
 
 # ================= KONFIGURASI =================
 
-CAMERA_URL = "http://192.168.1.9:8080/video"
+CAMERA_URL = "http://192.168.1.11:8080/video"
 DATASET_DIR = "face_dataset"
 TARGET_IMAGES = 1          # jumlah foto BARU per sesi run (bukan total)
 DET_SCORE_THRESHOLD = 0.55

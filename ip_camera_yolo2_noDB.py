@@ -5,7 +5,7 @@ import cv2
 model = YOLO("yolo11n.pt")
 
 # 2. Setup URL IP Webcam 
-url = "http://192.168.1.9:8080/video" 
+url = "http://192.168.1.11:8080/video" 
 cap = cv2.VideoCapture(url)
 
 # Setup Jendela Tampilan
